@@ -4,7 +4,7 @@ bd.transaction(function (criar) {
     criar.executeSql("CREATE TABLE formulario (nome TEXT, idade INTEGER)");
 });
 
-function salvarNome() {
+function salvarInfo() {
     const nomeUsuario = document.getElementById("nome-usuario").value;
     const idadeUsuario = parseInt (document.getElementById("idade-usuario").value
     );
