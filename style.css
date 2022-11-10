@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-image: url(./pexels-aleksandar-pasaric-325185.jpg);
+}
 
 header {
     background-color: cyan;

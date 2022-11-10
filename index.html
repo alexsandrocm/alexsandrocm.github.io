@@ -32,10 +32,21 @@
         <input type="button" value="Pesquisar!" onclick="pesquisaPorNome()" />
         <input type="text" id="resultado-pesquisa" placeholder="Resultado idade..." readonly/>
     </section>
+
+    </section>
+
     <section>
         <h3>Exibe Banco de Dados</h3>
         <input type="button" value="Exibir!" onclick="exibeBD()">
         <div id="lista-bd"></div>
+    </section>
+
+    <section>
+        <h3>Altera BD</h3>
+        <input type="text" id="nome-alteracao" placeholder="Nome"/>
+        <input type="number" id="idade-alteracao" placeholder="Idade"/>
+        <button onclick="alteraInfo()">Alterar!</button>
+        <button onclick="excluiInfo()">Excluir!</button>
     </section>
     </main>
 </body>
