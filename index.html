@@ -24,6 +24,9 @@
         <h3> Registro BD</h3>
         <input type="text" id="nome-usuario" placeholder="Nome">
         <input type="number" id="idade-usuario" placeholder="Idade">
+        <input type="date" id="data-usuario" placeholder="Data de nascimento">
+        <input type="text" id="email-usuario" placeholder="E-mail">
+        <input type="number" id="telefone-usuario" placeholder="Telefone">
         <input type="button" value="Salvar!" onclick="salvarInfo()" />
     </section>
     <section>
@@ -32,8 +35,7 @@
         <input type="button" value="Pesquisar!" onclick="pesquisaPorNome()" />
         <input type="text" id="resultado-pesquisa" placeholder="Resultado idade..." readonly/>
     </section>
-
-    </section>
+    
 
     <section>
         <h3>Exibe Banco de Dados</h3>
@@ -45,6 +47,9 @@
         <h3>Altera BD</h3>
         <input type="text" id="nome-alteracao" placeholder="Nome"/>
         <input type="number" id="idade-alteracao" placeholder="Idade"/>
+        <input type="date" id="data-alteracao" placeholder="Data">
+        <input type="text" id="email-alteracao" placeholder="E-mail"/>
+        <input type="number" id="telefone-alteracao" placeholder="Telefone">
         <button onclick="alteraInfo()">Alterar!</button>
         <button onclick="excluiInfo()">Excluir!</button>
     </section>
